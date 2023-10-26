@@ -1,3 +1,4 @@
 ﻿Flask>=3.0.0
 paho-mqtt>=1.6.1
 gunicorn>=21.2.0
+Flask-Cors>=4.0.0
