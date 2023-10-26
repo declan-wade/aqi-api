@@ -27,3 +27,27 @@ def aqi100():
     error = None
     if request.method == 'GET':
         return listener100()
+
+@app.route('/it', methods=['GET'])
+def it():
+    error = None
+    if request.method == 'GET':
+        return listener_it()
+
+@app.route('/io', methods=['GET'])
+def io():
+    error = None
+    if request.method == 'GET':
+        return listener_io()
+    
+@app.route('/ot', methods=['GET'])
+def ot():
+    error = None
+    if request.method == 'GET':
+        return listener_ot()
+
+@app.route('/oh', methods=['GET'])
+def oh():
+    error = None
+    if request.method == 'GET':
+        return listener_oh()
